@@ -1,3 +1,5 @@
 <p>
-    <%= @students.each {|student| puts student.to_s %>
+    <% @students.each do |student| %>
+        <%= student.to_s %>
+    <% end %>
 </p>
